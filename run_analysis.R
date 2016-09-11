@@ -35,4 +35,4 @@ tidy<-total%>%
         group_by(subject,activity)%>%
         summarize_each(funs(mean))
 head(tidy)
-write.csv(tidy,'result.csv')
+write.table(tidy,'tidy.txt',row.names = F)
