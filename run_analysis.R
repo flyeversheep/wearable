@@ -1,6 +1,6 @@
 #Load necessary library
 library(dplyr)
-# Read the data 
+# Read the data, assuming all the data are stored in the input folder
 X_train <- read.table('./input/train/X_train.txt')
 X_test <- read.table('./input/test/X_test.txt')
 y_train <- read.table('./input/train/y_train.txt')
